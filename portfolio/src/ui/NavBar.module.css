@@ -1,0 +1,23 @@
+.navContainer {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  background-color: red;
+  /* position: fixed; */
+  /* width: 100%; */
+  /* margin: 0; */
+}
+
+.linkContainer {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  gap: 2rem;
+}
