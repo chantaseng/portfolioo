@@ -1,0 +1,36 @@
+.navContainer {
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+  /* display: flex; */
+  font-size: 1.7rem;
+  height: auto;
+  /* justify-content: space-between; */
+  left: 0;
+  padding: 25px 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 200;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: red;
+  cursor: pointer;
+}
+
+.ulContainer {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}

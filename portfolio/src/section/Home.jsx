@@ -1,90 +1,26 @@
 import styles from './Home.module.css';
+import { CiLinkedin } from 'react-icons/ci';
+import { VscGithubAlt } from 'react-icons/vsc';
 
 function Home() {
   return (
-    <section id="home">
-      <div className={styles.container}>
-        <h1>Welcome to Home</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit
-          officia ipsum animi praesentium fuga adipisci nostrum corrupti
-          eligendi unde, veniam saepe est quos ut quis neque voluptates atque
-          autem! Eaque. Lorem ipsum dolor, sit amet consectetur adipisicing
-          elit. Impedit officia ipsum animi praesentium fuga adipisci nostrum
-          corrupti eligendi unde, veniam saepe est quos ut quis neque voluptates
-          atque autem! Eaque.Lorem ipsum dolor, sit amet consectetur adipisicing
-          elit. Impedit officia ipsum animi praesentium fuga adipisci nostrum
-          corrupti eligendi unde, veniam saepe est quos ut quis neque voluptates
-          atque autem! Eaque.Lorem ipsum dolor, sit amet consectetur adipisicing
-          elit. Impedit officia ipsum animi praesentium fuga adipisci nostrum
-          corrupti eligendi unde, veniam saepe est quos ut quis neque voluptates
-          atque autem! Eaque.Lorem ipsum dolor, sit amet consectetur adipisicing
-          elit. Impedit officia ipsum animi praesentium fuga adipisci nostrum
-          corrupti eligendi unde, veniam saepe est quos ut quis neque voluptates
-          atque autem! Eaque.Lorem ipsum dolor, sit amet consectetur adipisicing
-          elit. Impedit officia ipsum animi praesentium fuga adipisci nostrum
-          corrupti eligendi unde, veniam saepe est quos ut quis neque voluptates
-          atque autem! Eaque.Lorem ipsum dolor, sit amet consectetur adipisicing
-          elit. Impedit officia ipsum animi praesentium fuga adipisci nostrum
-          corrupti eligendi unde, veniam saepe est quos ut quis neque voluptates
-          atque autem! Eaque. Lorem ipsum dolor, sit amet consectetur
-          adipisicing elit. Impedit officia ipsum animi praesentium fuga
-          adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut quis
-          neque voluptates atque autem! Eaque.Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Impedit officia ipsum animi praesentium
-          fuga adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut
-          quis neque voluptates atque autem! Eaque.Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Impedit officia ipsum animi praesentium
-          fuga adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut
-          quis neque voluptates atque autem! Eaque.Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Impedit officia ipsum animi praesentium
-          fuga adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut
-          quis neque voluptates atque autem! Eaque.Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Impedit officia ipsum animi praesentium
-          fuga adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut
-          quis neque voluptates atque autem! Eaque.Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Impedit officia ipsum animi praesentium
-          fuga adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut
-          quis neque voluptates atque autem! Eaque.Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Impedit officia ipsum animi praesentium
-          fuga adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut
-          quis neque voluptates atque autem! Eaque.Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Impedit officia ipsum animi praesentium
-          fuga adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut
-          quis neque voluptates atque autem! Eaque.Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Impedit officia ipsum animi praesentium
-          fuga adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut
-          quis neque voluptates atque autem! Eaque.Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Impedit officia ipsum animi praesentium
-          fuga adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut
-          quis neque voluptates atque autem! Eaque.Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Impedit officia ipsum animi praesentium
-          fuga adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut
-          quis neque voluptates atque autem! Eaque.Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Impedit officia ipsum animi praesentium
-          fuga adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut
-          quis neque voluptates atque autem! Eaque.Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Impedit officia ipsum animi praesentium
-          fuga adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut
-          quis neque voluptates atque autem! Eaque.Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Impedit officia ipsum animi praesentium
-          fuga adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut
-          quis neque voluptates atque autem! Eaque.Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Impedit officia ipsum animi praesentium
-          fuga adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut
-          quis neque voluptates atque autem! Eaque.Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Impedit officia ipsum animi praesentium
-          fuga adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut
-          quis neque voluptates atque autem! Eaque.Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Impedit officia ipsum animi praesentium
-          fuga adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut
-          quis neque voluptates atque autem! Eaque.Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Impedit officia ipsum animi praesentium
-          fuga adipisci nostrum corrupti eligendi unde, veniam saepe est quos ut
-          quis neque voluptates atque autem! Eaque.
-        </p>
-      </div>
-    </section>
+    <div className={styles.homeContainer}>
+      <section id="home">
+        <div className={styles.container}>
+          <h1 className={styles.title}>Front-End React Developer</h1>
+          <p>
+            Hi, my name is William Chan. I am a Front-End Developer, currently
+            living in Montreal, Canada. 📍
+          </p>
+          <div>
+            <span>
+              <CiLinkedin />
+              <VscGithubAlt />
+            </span>
+          </div>
+        </div>
+      </section>
+    </div>
   );
 }
 

@@ -1,9 +1,9 @@
-import styles from './Home.module.css';
+import styles from './About.module.css';
 
 function About() {
   return (
     <section id="about">
-      <div className={styles.container}>
+      <div className={styles.aboutDivContainer}>
         <h1>Welcome to About</h1>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit

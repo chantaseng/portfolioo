@@ -12,16 +12,24 @@ function NavBar() {
             <div>
               <ul className={styles.linkContainer}>
                 <li>
-                  <Link to="#home">Home</Link>
+                  <Link to="#home" smooth>
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#about">About</Link>
+                  <Link to="#about" smooth>
+                    About
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#projects">Projects</Link>
+                  <Link to="#projects" smooth>
+                    Projects
+                  </Link>
                 </li>
                 <li>
-                  <Link to="#contact">Contact</Link>
+                  <Link to="#contact" smooth>
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </div>

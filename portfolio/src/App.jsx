@@ -1,22 +1,22 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import NavBar from './ui/NavBar';
-import Home from './section/Home';
+import { BrowserRouter } from 'react-router-dom';
+import Home1 from './section/Home1';
 import About from './section/About';
 import Projects from './section/Projects';
 import Contact from './section/Contact';
+import NavBar1 from './ui/NavBar1';
 
 function App() {
   return (
-    <div>
+    <>
       <BrowserRouter>
-        <NavBar />
+        <NavBar1 />
 
-        <Home />
+        <Home1 />
         <About />
         <Projects />
         <Contact />
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 
