@@ -1,6 +1,7 @@
 import styles from './Home1.module.css';
 import { CiLinkedin } from 'react-icons/ci';
 import { VscGithubAlt } from 'react-icons/vsc';
+import me from '../img/dog1.jpg';
 
 function Home1() {
   return (
