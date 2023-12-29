@@ -1,0 +1,53 @@
+.about {
+  background-color: #fff;
+  padding: 10rem 0; /* To make the content in the middle */
+}
+
+.container {
+  margin: 0 auto; /* Center the content with margin */
+  max-width: 70rem; /* Make the content a maximum width */
+  padding: 0 4rem; /* Restraining the content even more */
+}
+
+.aboutContent {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 3rem;
+}
+
+/* .imgContainer img {
+  width: 46rem;
+  height: 36rem;
+  padding-left: 2rem;
+} */
+
+.aboutImg__img {
+  height: 35rem;
+  width: 32rem;
+}
+
+.textContainer h3 {
+  color: #147efb;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.textContainer h4 {
+  color: #2d2e32;
+  font-family: Poppins, sans-serif;
+  font-size: 2rem;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+.textContainer p {
+  color: #767676;
+  font-family: Mulish, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
