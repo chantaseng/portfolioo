@@ -1,25 +1,25 @@
 import { BrowserRouter as Router } from 'react-router-dom';
-// import Home1 from './section/Home1';
-import Home2 from './section/Home2';
-import About from './section/About';
-import Projects from './section/Projects';
-import Contact from './section/Contact';
+import Home from './sections/Home';
+// import About from './section/About';
+import About1 from './sections/About1';
+// import Projects from './section/Projects';
+import Projects1 from './sections/Projects1';
+import Contact from './sections/Contact';
+import NavBar from './components/NavBar';
 // import NavBar1 from './ui/NavBar1';
-import NavBar2 from './ui/NavBar2';
-// import NavBar3 from './ui/NavBar3';
 
 function App() {
   return (
     <>
       <Router>
+        <NavBar />
         {/* <NavBar1 /> */}
-        <NavBar2 />
-        {/* <NavBar3 /> */}
 
-        {/* <Home1 /> */}
-        <Home2 />
-        <About />
+        <Home />
+        {/* <About /> */}
+        <About1 />
         {/* <Projects /> */}
+        <Projects1 />
         {/* <Contact /> */}
       </Router>
     </>

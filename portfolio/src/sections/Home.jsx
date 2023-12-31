@@ -1,9 +1,8 @@
-import styles from './Home2.module.css';
+import styles from './Home.module.css';
 import { CiLinkedin } from 'react-icons/ci';
 import { VscGithubAlt } from 'react-icons/vsc';
-import me from '../img/dog1.jpg';
 
-function Home1() {
+function Home() {
   return (
     <section id="home" className={styles.section}>
       <div className={styles.container}>
@@ -24,4 +23,4 @@ function Home1() {
   );
 }
 
-export default Home1;
+export default Home;

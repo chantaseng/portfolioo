@@ -1,18 +1,24 @@
 import { HashLink as Link } from 'react-router-hash-link';
-import styles from './NavBar2.module.css';
+import styles from './NavBar1.module.css';
 
-function NavBar2() {
+function NavBar1() {
   return (
     <>
       <div className={styles.container}>
-        <h1 className={styles.logo}>Chan</h1>
-        <div className={styles.links}>
+        <div className={styles.group1}>
           <Link to="#home" smooth>
             <p>Home</p>
           </Link>
           <Link to="#about" smooth>
             <p>About</p>
           </Link>
+        </div>
+
+        <div className={styles.group2}>
+          <h1>William</h1>
+        </div>
+
+        <div className={styles.group3}>
           <Link to="#projects" smooth>
             <p>Projects</p>
           </Link>
@@ -20,10 +26,9 @@ function NavBar2() {
             <p>Contact</p>
           </Link>
         </div>
-        {/* </div> */}
       </div>
     </>
   );
 }
 
-export default NavBar2;
+export default NavBar1;

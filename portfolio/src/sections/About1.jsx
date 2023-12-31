@@ -1,25 +1,21 @@
 import styles from './About1.module.css';
-import aboutImg from '../img/dog2.jpg';
+import about from '../img/about.jpg';
 
 function About() {
   return (
-    <section id="about" className={styles.about}>
+    <section id="about" className={styles.section}>
       <div className={styles.container}>
-        <div className={styles.aboutContent}>
-          <div className={styles.imgContainer}>
-            <img
-              src={aboutImg}
-              alt="dog pic"
-              className={styles.aboutImg__img}
-            />
+        <div className={styles.content}>
+          <div className={styles.imgDiv}>
+            <img src={about} alt="developer pic" className={styles.image} />
           </div>
 
           <div className={styles.textContainer}>
-            <h3>About me</h3>
-            <h4>
+            <h3 className={styles.title}>About me</h3>
+            <h4 className={styles.subheader}>
               A passionate Front-End Developer <br /> from Montreal, Canada
             </h4>
-            <p>
+            <p className={styles.text}>
               As a Junior Front-End Developer, I bring a robust set of skills
               encompassing HTML, CSS, JavaScript, React, Tailwind, and SCSS. My
               specialization lies in creating and maintaining responsive
