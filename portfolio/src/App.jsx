@@ -20,7 +20,7 @@ function App() {
         <About1 />
         {/* <Projects /> */}
         <Projects1 />
-        {/* <Contact /> */}
+        <Contact />
       </Router>
     </>
   );

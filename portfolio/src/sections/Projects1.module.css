@@ -4,10 +4,14 @@
 }
 
 .container {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 0 5rem;
+}
+
+.projectsContent {
   display: flex;
   flex-direction: column;
-  max-width: 60rem;
-  margin: 0 auto;
 }
 
 .containerTitle {
@@ -22,5 +26,16 @@
   font-family: Poppins, sans-serif;
   font-size: 1.5rem;
   line-height: 1.4;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+}
+
+.projectsGrid {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr;
+  height: auto;
+  width: 100%;
+}
+
+@media (max-width: 1199px) {
 }
