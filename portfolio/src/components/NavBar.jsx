@@ -1,10 +1,8 @@
 import { HashLink as Link } from 'react-router-hash-link';
-import styles from './NavBar.module.css';
-import { IoReorderThree } from 'react-icons/io5';
 import { useEffect, useState } from 'react';
-{
-  /* <IoReorderThree /> */
-}
+
+import styles from './NavBar.module.css';
+import Dropdown from './Dropdown';
 
 function NavBar() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -24,11 +22,11 @@ function NavBar() {
   return (
     <>
       <div className={styles.container}>
-        <h1 className={styles.logo}>Chan</h1>
-        {/* {window.innerWidth < 600 ? (
-          <div>
-            <IoReorderThree />
-          </div>
+        <Link to="#home" smooth style={{ textDecoration: 'none' }}>
+          <h1 className={styles.logo}>Chan</h1>
+        </Link>
+        {window.innerWidth < 900 ? (
+          <Dropdown />
         ) : (
           <div className={styles.links}>
             <Link to="#home" smooth>
@@ -44,10 +42,7 @@ function NavBar() {
               <p>Contact</p>
             </Link>
           </div>
-        )} */}
-        <div>
-          <IoReorderThree />
-        </div>
+        )}
       </div>
     </>
   );
