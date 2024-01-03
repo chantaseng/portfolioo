@@ -7,7 +7,7 @@ function Home() {
     <section id="home" className={styles.section}>
       <div className={styles.container}>
         <div>
-          <h1 className={styles.title}>Front-End React Developer</h1>
+          <h1 className={styles.header}>Front-End React Developer</h1>
           <p className={styles.text}>
             Hi, my name is William Chan. I am a Front-End Developer, currently
             in Montreal, Canada. 📍

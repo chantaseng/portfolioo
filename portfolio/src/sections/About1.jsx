@@ -11,7 +11,7 @@ function About() {
           </div>
 
           <div className={styles.textContainer}>
-            <h3 className={styles.title}>About me</h3>
+            <h3 className={styles.header}>About me</h3>
             <h4 className={styles.subheader}>
               A passionate Front-End Developer <br /> from Montreal, Canada
             </h4>

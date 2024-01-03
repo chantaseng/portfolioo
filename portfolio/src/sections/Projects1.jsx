@@ -6,7 +6,7 @@ function Projects1() {
     <section id="projects" className={styles.section}>
       <div className={styles.container}>
         <div className={styles.projectsContent}>
-          <p className={styles.containerTitle}>Portfolio</p>
+          <p className={styles.header}>Portfolio</p>
           <h3 className={styles.subheader}>
             Built from scratch and from the bottom of my ❤️
           </h3>
