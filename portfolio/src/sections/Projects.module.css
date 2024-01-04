@@ -14,6 +14,10 @@
   flex-direction: column;
 }
 
+/* .titleContainer {
+  text-align: left;
+} */
+
 .header {
   color: #147efb;
   font-size: 1rem;
@@ -38,4 +42,7 @@
 }
 
 @media (max-width: 1199px) {
+  .titleContent {
+    margin: 0 auto;
+  }
 }
