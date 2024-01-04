@@ -54,9 +54,13 @@
   margin-right: 1rem;
 }
 
-.email p a {
+.email a {
   text-decoration: none;
-  color: black;
+  color: #2d2e32;
+}
+
+.email a:hover {
+  color: #147efb;
 }
 
 @media (max-width: 1199px) {

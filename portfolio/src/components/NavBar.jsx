@@ -23,7 +23,7 @@ function NavBar() {
     <>
       <div className={styles.container}>
         <Link to="#home" smooth style={{ textDecoration: 'none' }}>
-          <h1 className={styles.logo}>Chan</h1>
+          <h1 className={styles.logo}>Will.dev</h1>
         </Link>
         {window.innerWidth < 900 ? (
           <Dropdown />

@@ -7,7 +7,7 @@ function Contact() {
     <section id="contact" className={styles.section}>
       <div className={styles.container}>
         <div className={styles.contactContent}>
-          <div className={styles.header}>
+          <div>
             <p className={styles.header}>Contact</p>
             <h3 className={styles.subheader}>Say hi, I don&apos;t bite 🙋🏻‍♂️</h3>
           </div>

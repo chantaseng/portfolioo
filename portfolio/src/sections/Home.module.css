@@ -1,6 +1,5 @@
 .section {
   background-color: #f9f9f9;
-  /* background-color: red; */
   height: 100vh;
   width: 100%;
   margin-top: 72px;
@@ -23,7 +22,7 @@
 }
 
 .text {
-  color: #555;
+  color: #767676;
   font-size: 22px;
   line-height: 1.2;
   padding: 1rem 0;
@@ -38,6 +37,11 @@
 .icons svg {
   height: 2rem;
   width: 2rem;
+  color: #2d2e32;
+}
+
+.icons svg:hover {
+  color: #147efb;
 }
 
 @media (min-width: 1218px) {
@@ -60,7 +64,6 @@
 @media (max-width: 575px) {
   .section {
     /* background-color: #f9f9f9; */
-    background-color: red;
     height: 100vh;
     width: 100%;
     margin-top: 10px;
