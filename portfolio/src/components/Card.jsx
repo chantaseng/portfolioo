@@ -1,5 +1,5 @@
 import styles from './Card.module.css';
-import about from '../img/about.jpg';
+import netflex from '../img/netflex.png';
 import { VscGithubAlt } from 'react-icons/vsc';
 import { IoIosGlobe } from 'react-icons/io';
 
@@ -12,7 +12,9 @@ function Card({ reverse }) {
     <>
       <div className={flexDirection}>
         <div className={styles.imageContainer}>
-          <img className={styles.image} src={about} alt="dog" />
+          <a href="netflex1.netlify.app">
+            <img className={styles.image} src={netflex} alt="movie app" />
+          </a>
         </div>
 
         <div className={styles.textContainer}>

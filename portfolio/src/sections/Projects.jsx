@@ -1,5 +1,6 @@
 import styles from './Projects.module.css';
 import Card from '../components/Card';
+import Card1 from '../components/Card1';
 
 function Projects() {
   return (
@@ -14,10 +15,14 @@ function Projects() {
           </div>
 
           <div className={styles.projectsGrid}>
-            <Card />
+            {/* <Card />
             <Card reverse={true} />
             <Card />
-            <Card reverse={true} />
+            <Card reverse={true} /> */}
+            <Card1 />
+            <Card1 reverse={true} />
+            <Card1 />
+            <Card1 reverse={true} />
           </div>
         </div>
       </div>
