@@ -12,7 +12,7 @@ function Card1({ reverse }) {
     <>
       <div className={flexDirection}>
         <div className={styles.imageContainer}>
-          <a href="netflex1.netlify.app">
+          <a href="https://netflex1.netlify.app" target="blank">
             <img className={styles.image} src={netflex} alt="movie app" />
           </a>
         </div>
@@ -45,7 +45,7 @@ function Card1({ reverse }) {
               </a>
             </div>
             <div className={styles.link}>
-              <a href="#" target="blank">
+              <a href="https://netflex1.netlify.app" target="blank">
                 Demo <IoIosGlobe className={styles.emoji} />
               </a>
             </div>
