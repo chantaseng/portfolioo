@@ -12,13 +12,13 @@ function Card({ reverse }) {
     <>
       <div className={flexDirection}>
         <div className={styles.imageContainer}>
-          <a href="netflex1.netlify.app">
+          <a href="https://netflex1.netlify.app" target="blank">
             <img className={styles.image} src={netflex} alt="movie app" />
           </a>
         </div>
 
         <div className={styles.textContainer}>
-          <h3 className={styles.title}>Project #1</h3>
+          <h3 className={styles.title}>Netflex 🍿</h3>
           <p className={styles.text}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
             animi dolor impedit, praesentium esse nisi Lorem ipsum dolor sit
@@ -45,7 +45,7 @@ function Card({ reverse }) {
               </a>
             </div>
             <div className={styles.link}>
-              <a href="#" target="blank">
+              <a href="https://netflex1.netlify.app" target="blank">
                 Demo <IoIosGlobe className={styles.emoji} />
               </a>
             </div>

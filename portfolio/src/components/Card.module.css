@@ -12,18 +12,34 @@
   flex-direction: row-reverse;
 }
 
-.image {
-  border-radius: 1.7rem;
-  height: 20rem;
+.imageContainer {
   width: 30rem;
+  height: 20rem;
+  overflow: hidden;
+  margin: 50px auto;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: all 2s ease-in-out;
+  border-radius: 0.5rem;
+}
+
+.imageContainer:hover img {
+  object-position: bottom center;
 }
 
 .textContainer {
   text-align: center;
+  width: 50%; /* This makes the text container at a width of 50%, so now the image width is the same size as the text */
+  margin: 40px auto;
 }
 
 .title {
-  font: 700;
+  font-weight: 700;
   text-transform: uppercase;
   padding: 1rem 0;
 }
@@ -83,7 +99,16 @@ a svg {
     max-width: 45rem;
   }
 
+  .imageContainer {
+    margin: 20px auto 0 auto;
+  }
+
   .textContainer {
     max-width: 35rem;
+    margin: 0px auto;
+  }
+
+  .title {
+    padding: 0.5rem 0 1rem 0;
   }
 }
