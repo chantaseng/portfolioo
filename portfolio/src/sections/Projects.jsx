@@ -2,6 +2,7 @@ import styles from './Projects.module.css';
 import CardPigGame from '../components/CardPigGame';
 import CardNetflex from '../components/CardNetflex';
 import Card from '../components/Card';
+import CardOuva from '../components/CardOuva';
 
 function Projects() {
   return (
@@ -18,6 +19,7 @@ function Projects() {
           <div className={styles.projectsGrid}>
             <CardNetflex />
             <CardPigGame reverse={true} />
+            <CardOuva />
           </div>
         </div>
       </div>

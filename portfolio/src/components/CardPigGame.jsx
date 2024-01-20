@@ -32,10 +32,13 @@ function CardPigGame({ reverse }) {
 
           <div className={styles.languages}>
             <div className={styles.language}>
-              <p>Javascript</p>
+              <p>HTML</p>
             </div>
             <div className={styles.language}>
               <p>CSS</p>
+            </div>
+            <div className={styles.language}>
+              <p>Javascript</p>
             </div>
           </div>
 
