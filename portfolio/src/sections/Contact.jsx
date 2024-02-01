@@ -9,7 +9,9 @@ function Contact() {
         <div className={styles.contactContent}>
           <div>
             <p className={styles.header}>Contact</p>
-            <h3 className={styles.subheader}>Say hi, I don&apos;t bite 🙋🏻‍♂️</h3>
+            <h3 className={styles.subheader}>
+              Get in touch, lets work together 🙋🏻‍♂️
+            </h3>
           </div>
 
           <div className={styles.infos}>

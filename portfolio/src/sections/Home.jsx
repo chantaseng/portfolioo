@@ -7,10 +7,10 @@ function Home() {
     <section id="home" className={styles.section}>
       <div className={styles.container}>
         <div>
-          <h1 className={styles.header}>Front-End React Developer</h1>
+          <h1 className={styles.header}>Junior Frontend Developer</h1>
           <p className={styles.text}>
-            Hi, my name is William Chan. I am a Front-End Developer, currently
-            in Montreal, Canada. 📍
+            Hi, my name is William Chan. I am a Frontend Developer, currently in
+            Montreal, Canada. 📍
           </p>
 
           <div className={styles.icons}>

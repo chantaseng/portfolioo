@@ -22,7 +22,8 @@
   color: #147efb;
   font-size: 1rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+  margin-bottom: 2rem; /* removed h3 so added more space between title and cards */
   text-transform: uppercase;
 }
 .subheader {

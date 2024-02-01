@@ -10,10 +10,10 @@ function Projects() {
       <div className={styles.container}>
         <div className={styles.projectsContent}>
           <div className={styles.titleContent}>
-            <p className={styles.header}>Portfolio</p>
-            <h3 className={styles.subheader}>
+            <p className={styles.header}>Recent Projects</p>
+            {/* <h3 className={styles.subheader}>
               Built from scratch and from the bottom of my ❤️
-            </h3>
+            </h3> */}
           </div>
 
           <div className={styles.projectsGrid}>

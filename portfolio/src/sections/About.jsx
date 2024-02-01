@@ -13,10 +13,10 @@ function About() {
           <div className={styles.textContainer}>
             <h3 className={styles.header}>About me</h3>
             <h4 className={styles.subheader}>
-              A passionate Front-End Developer <br /> from Montreal, Canada
+              A passionate Frontend Developer <br /> from Montreal, Canada
             </h4>
             <p className={styles.text}>
-              As a Junior Front-End Developer, I bring a robust set of skills
+              As a Junior Frontend Developer, I bring a robust set of skills
               encompassing HTML, CSS, JavaScript, React, Tailwind, and SCSS. My
               specialization lies in creating and maintaining responsive
               websites that prioritize a seamless user experience. I have a
