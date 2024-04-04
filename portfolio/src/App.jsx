@@ -1,4 +1,5 @@
 import { BrowserRouter as Router } from 'react-router-dom';
+import Navbar from './components/navbar/Navbar';
 import Home from './sections/Home';
 import About from './sections/About';
 import Projects from './sections/Projects';
@@ -11,15 +12,16 @@ function App() {
   return (
     <>
       <Router>
-        <NavBar />
+        <Navbar />
+        {/* <NavBar /> */}
         {/* <NavBar1 /> */}
 
-        <Home />
-        <About />
-        <Projects />
-        <Contact />
+        {/* <Home /> */}
+        {/* <About /> */}
+        {/* <Projects /> */}
+        {/* <Contact /> */}
 
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </>
   );
