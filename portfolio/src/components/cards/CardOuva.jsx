@@ -1,11 +1,11 @@
 import styles from './CardOuva.module.css';
-import homepage from '../img/ouva img/homepage.png';
-import destination from '../img/ouva img/destination.png';
-import activityDescription from '../img/ouva img/activity-description.png';
-import itinerary from '../img/ouva img/itinerary.png';
-import cart from '../img/ouva img/cart.png';
-import myTripPage from '../img/ouva img/my-trip-page.png';
-import review from '../img/ouva img/review.png';
+import homepage from '../../img/ouva img/homepage.png';
+import destination from '../../img/ouva img/destination.png';
+import activityDescription from '../../img/ouva img/activity-description.png';
+import itinerary from '../../img/ouva img/itinerary.png';
+import cart from '../../img/ouva img/cart.png';
+import myTripPage from '../../img/ouva img/my-trip-page.png';
+import review from '../../img/ouva img/review.png';
 import { VscGithubAlt } from 'react-icons/vsc';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import { useState } from 'react';

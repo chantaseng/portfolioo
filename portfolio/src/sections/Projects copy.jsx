@@ -1,8 +1,8 @@
 import styles from './Projects.module.css';
-import CardPigGame from '../components/cards/CardPigGame';
-import CardNetflex from '../components/cards/CardNetflex';
-// import Card from '../components/cards/Card';
-import CardOuva from '../components/cards/CardOuva';
+import CardPigGame from '../components/CardPigGame';
+import CardNetflex from '../components/CardNetflex';
+import Card from '../components/Card';
+import CardOuva from '../components/CardOuva';
 
 function Projects() {
   return (

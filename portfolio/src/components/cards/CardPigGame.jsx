@@ -1,5 +1,6 @@
 import styles from './CardPigGame.module.css';
-import pigGame from '../img/pig-game.png';
+// import pigGame from '../img/pig-game.png';
+import pigGame from '../../img/pig-game.png';
 import { VscGithubAlt } from 'react-icons/vsc';
 import { IoIosGlobe } from 'react-icons/io';
 

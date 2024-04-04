@@ -1,9 +1,9 @@
-import styles from './Card.module.css';
-import netflex from '../img/netflex.png';
+import styles from './CardNetflex.module.css';
+import netflex from '../../img/netflex.png';
 import { VscGithubAlt } from 'react-icons/vsc';
 import { IoIosGlobe } from 'react-icons/io';
 
-function Card({ reverse }) {
+function CardNetflex({ reverse }) {
   const flexDirection = reverse
     ? `${styles.card} ${styles.reverse}`
     : styles.card;
@@ -20,10 +20,12 @@ function Card({ reverse }) {
         <div className={styles.textContainer}>
           <h3 className={styles.title}>Netflex 🍿</h3>
           <p className={styles.text}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-            animi dolor impedit, praesentium esse nisi Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Temporibus animi dolor impedit,
-            praesentium esse nisi
+            Netflex is a clone website of Netflix where you can know what are
+            the hottest and trendiest movies and tv shows in Hollywood right
+            now. Intrigue by a movie, you can search on Netflex to get more
+            information about it. Whether it is about the release date or your
+            favorite actors or actresses. Don&apos;t forget to create an account
+            to save the movie in your watchlist so you can watch them later!
           </p>
 
           <div className={styles.languages}>
@@ -31,7 +33,16 @@ function Card({ reverse }) {
               <p>React</p>
             </div>
             <div className={styles.language}>
-              <p>CSS</p>
+              <p>TailwindCSS</p>
+            </div>
+            <div className={styles.language}>
+              <p>Javascript</p>
+            </div>
+            <div className={styles.language}>
+              <p>Axios</p>
+            </div>
+            <div className={styles.language}>
+              <p>Firestore</p>
             </div>
           </div>
 
@@ -56,4 +67,4 @@ function Card({ reverse }) {
   );
 }
 
-export default Card;
+export default CardNetflex;
