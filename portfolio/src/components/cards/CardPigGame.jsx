@@ -1,5 +1,4 @@
 import styles from './CardPigGame.module.css';
-// import pigGame from '../img/pig-game.png';
 import pigGame from '../../img/pig-game.png';
 import { VscGithubAlt } from 'react-icons/vsc';
 import { IoIosGlobe } from 'react-icons/io';
@@ -14,7 +13,7 @@ function CardPigGame({ reverse }) {
       <div className={flexDirection}>
         <div className={styles.imageContainer}>
           <a href="https://pig-game-chantaseng.netlify.app" target="blank">
-            <img className={styles.image} src={pigGame} alt="movie app" />
+            <img className={styles.image} src={pigGame} alt="Pig game" />
           </a>
         </div>
 

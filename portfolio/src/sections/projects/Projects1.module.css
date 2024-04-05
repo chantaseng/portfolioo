@@ -1,0 +1,32 @@
+.section {
+  background-color: #f9f9f9;
+  padding: 17rem 0;
+}
+
+.container {
+  /* max-width: 70rem; */
+  width: 70%;
+  margin: 0 auto;
+  /* padding: 0 5rem;  */ /* paddingshrink the projectContent */
+}
+
+.projectsContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  color: #147efb;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 2rem; /* removed h3 so added more space between title and cards */
+  text-transform: uppercase;
+}
+
+.projectsGrid {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr;
+  height: auto;
+  width: 100%;
+}
