@@ -20,7 +20,11 @@
 }
 
 .navbar span {
-  font-size: 0.8rem;
+  font-size: 1rem;
+}
+
+.navbar span:hover {
+  color: #147efb;
 }
 
 .mobile_btn {
