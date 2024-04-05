@@ -1,6 +1,7 @@
 import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import Home2 from './sections/home/Home2';
+import About1 from './sections/about/About1';
 import Home from './sections/Home';
 import About from './sections/About';
 import Projects from './sections/Projects';
@@ -15,6 +16,7 @@ function App() {
       <Router>
         <Navbar />
         <Home2 />
+        <About1 />
         {/* <NavBar /> */}
         {/* <NavBar1 /> */}
 
