@@ -15,7 +15,7 @@ const Projects1 = () => {
           <div className={styles.projectsGrid}>
             <CardNetflex />
             <CardPigGame reverse={true} />
-            {/* <CardOuva /> */}
+            <CardOuva />
           </div>
         </div>
       </div>
