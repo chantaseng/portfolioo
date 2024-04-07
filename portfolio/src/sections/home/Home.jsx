@@ -1,8 +1,8 @@
-import styles from './Home2.module.css';
+import styles from './Home.module.css';
 import { CiLinkedin } from 'react-icons/ci';
 import { VscGithubAlt } from 'react-icons/vsc';
 
-const Home2 = () => {
+const Home = () => {
   return (
     <>
       <section id="home" className={styles.section}>
@@ -32,4 +32,4 @@ const Home2 = () => {
   );
 };
 
-export default Home2;
+export default Home;

@@ -1,10 +1,10 @@
-import styles from './Projects1.module.css';
+import styles from './Projects.module.css';
 import CardPigGame from '../../components/cards/pig-game-app/CardPigGame';
 import CardNetflex from '../../components/cards/netflex-app/CardNetflex';
 import CardOuva from '../../components/cards/ouva-app/CardOuva';
 import CardWeatherApp from '../../components/cards/weather-app/CardWeatherApp';
 
-const Projects1 = () => {
+const Projects = () => {
   return (
     <section id="projects" className={styles.section}>
       <div className={styles.container}>
@@ -25,4 +25,4 @@ const Projects1 = () => {
   );
 };
 
-export default Projects1;
+export default Projects;

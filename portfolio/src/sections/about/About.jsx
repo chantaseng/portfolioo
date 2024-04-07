@@ -1,7 +1,7 @@
-import styles from './About1.module.css';
+import styles from './About.module.css';
 import aboutImage from '../../img/about.jpg';
 
-const About1 = () => {
+const About = () => {
   return (
     <section id="about" className={styles.section}>
       <div className={styles.container}>
@@ -37,4 +37,4 @@ const About1 = () => {
   );
 };
 
-export default About1;
+export default About;

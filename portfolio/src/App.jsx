@@ -1,9 +1,9 @@
 import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
-import Home2 from './sections/home/Home2';
-import About1 from './sections/about/About1';
-import Projects1 from './sections/projects/Projects1';
-import Contact1 from './sections/contact/Contact1';
+import Home from './sections/home/Home';
+import About from './sections/about/About';
+import Projects from './sections/projects/Projects';
+import Contact from './sections/contact/Contact';
 import Footer from './components/footer/Footer';
 
 function App() {
@@ -12,10 +12,10 @@ function App() {
       <Router>
         <Navbar />
 
-        <Home2 />
-        <About1 />
-        <Projects1 />
-        <Contact1 />
+        <Home />
+        <About />
+        <Projects />
+        <Contact />
 
         <Footer />
       </Router>

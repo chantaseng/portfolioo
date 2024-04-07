@@ -1,8 +1,8 @@
-import styles from './Contact1.module.css';
+import styles from './Contact.module.css';
 import { IoMailOutline } from 'react-icons/io5';
 import { CiLinkedin } from 'react-icons/ci';
 
-const Contact1 = () => {
+const Contact = () => {
   return (
     <section id="contact" className={styles.section}>
       <div className={styles.container}>
@@ -51,4 +51,4 @@ const Contact1 = () => {
   );
 };
 
-export default Contact1;
+export default Contact;
