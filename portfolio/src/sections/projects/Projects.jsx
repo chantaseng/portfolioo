@@ -14,7 +14,7 @@ const Projects = () => {
           </div>
 
           <div className={styles.projectsGrid}>
-            <CardWeatherApp />
+            <CardWeatherApp reverse={true} />
             <CardNetflex />
             <CardPigGame reverse={true} />
             <CardOuva />

@@ -92,52 +92,31 @@ a svg {
   margin-left: 0.2rem;
 }
 
-@media screen and (max-width: 1620px) and (min-width: 1200px) {
-  .imageContainer {
-    height: 25rem;
-  }
-}
-
 @media screen and (max-width: 1199px) {
   .card {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 auto;
     text-align: center;
-    max-width: 45rem;
+    /* max-width: 45rem; */
+    width: 100%; /* put width 100% instead of a limit width, it will take width of projectContent div */
     padding: 1.5rem;
     gap: 1rem;
   }
 
   .imageContainer {
     margin: 20px auto 0 auto;
-    width: 40rem;
+    width: 100%;
   }
 
   .textContainer {
-    max-width: 35rem;
+    max-width: 45rem;
     width: 100%;
     margin: 0px auto;
-  }
-}
-
-@media screen and (max-width: 1030px) {
-  .imageContainer {
-    width: 35rem;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .imageContainer {
-    width: 25rem;
-  }
-
-  .textContainer {
-    max-width: 25rem;
-    width: 100%;
-    margin: 0px auto;
-  }
-
   .text {
     padding-bottom: 1rem;
   }
@@ -149,22 +128,13 @@ a svg {
 
 @media screen and (max-width: 700px) {
   .imageContainer {
-    width: 20rem;
-  }
-
-  .textContainer {
-    max-width: 20rem;
+    height: 20rem;
   }
 }
 
 @media screen and (max-width: 544px) {
-  .imageContainer {
-    width: 16rem;
-    height: 15rem;
-  }
-
   .textContainer {
-    max-width: 16rem;
+    max-width: 25rem;
   }
 
   .text {
@@ -178,9 +148,8 @@ a svg {
 }
 
 @media screen and (max-width: 449px) {
-  .imageContainer {
-    width: 12rem;
-    height: 12rem;
+  .textContainer {
+    max-width: 20rem;
   }
 
   .text {

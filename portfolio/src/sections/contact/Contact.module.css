@@ -64,6 +64,12 @@
 }
 
 @media screen and (max-width: 700px) {
+  .container {
+    padding: 0;
+    margin-left: 2rem;
+    max-width: 70%;
+  }
+
   .contactContent {
     /* max-width: 45rem; */
     align-items: center;
