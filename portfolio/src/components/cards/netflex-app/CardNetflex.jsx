@@ -1,5 +1,5 @@
 import styles from './CardNetflex.module.css';
-import netflex from '../../img/netflex.png';
+import netflex from '../../../img/netflex.png';
 import { VscGithubAlt } from 'react-icons/vsc';
 import { IoIosGlobe } from 'react-icons/io';
 

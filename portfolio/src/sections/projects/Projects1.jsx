@@ -1,7 +1,8 @@
 import styles from './Projects1.module.css';
-import CardPigGame from '../../components/cards/CardPigGame';
-import CardNetflex from '../../components/cards/CardNetflex';
-import CardOuva from '../../components/cards/CardOuva';
+import CardPigGame from '../../components/cards/pig-game-app/CardPigGame';
+import CardNetflex from '../../components/cards/netflex-app/CardNetflex';
+import CardOuva from '../../components/cards/ouva-app/CardOuva';
+import CardWeatherApp from '../../components/cards/weather-app/CardWeatherApp';
 
 const Projects1 = () => {
   return (
@@ -13,6 +14,7 @@ const Projects1 = () => {
           </div>
 
           <div className={styles.projectsGrid}>
+            <CardWeatherApp />
             <CardNetflex />
             <CardPigGame reverse={true} />
             <CardOuva />
