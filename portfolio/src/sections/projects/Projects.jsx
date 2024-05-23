@@ -3,6 +3,7 @@ import CardPigGame from '../../components/cards/pig-game-app/CardPigGame';
 import CardNetflex from '../../components/cards/netflex-app/CardNetflex';
 import CardOuva from '../../components/cards/ouva-app/CardOuva';
 import CardWeatherApp from '../../components/cards/weather-app/CardWeatherApp';
+import CardComidaEats from '../../components/cards/comida-eats/CardComidaEats';
 
 const Projects = () => {
   return (
@@ -14,6 +15,7 @@ const Projects = () => {
           </div>
 
           <div className={styles.projectsGrid}>
+            <CardComidaEats />
             <CardWeatherApp reverse={true} />
             <CardNetflex />
             <CardPigGame reverse={true} />

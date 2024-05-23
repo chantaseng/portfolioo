@@ -10,7 +10,7 @@ const Contact = () => {
           <div>
             <p className={styles.header}>Contact</p>
             <h3 className={styles.subheader}>
-              Get in touch, lets work together 🙋🏻‍♂️
+              Get in touch, let&apos;s work together 🙋🏻‍♂️
             </h3>
           </div>
 
